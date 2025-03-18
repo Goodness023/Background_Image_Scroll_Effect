@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Background image container */
+.bg-image {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/free-photo/beautiful-wooden-pathway-going-breathtaking-colorful-trees-forest_181624-5840.jpg?uid=R185329207&ga=GA1.1.78629320.1731355655&semt=ais_hybrid");
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 160%;
+}
+
+/* Main content container */
+.container {
+  padding: 100px;
+}
+
+/* Heading style */
+h1 {
+  font-size: 50px;
+}
+
+/* Paragraph text style */
+p {
+  color: gray;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 500px) {
+  .container {
+    padding: 10px;
+  }
+}
